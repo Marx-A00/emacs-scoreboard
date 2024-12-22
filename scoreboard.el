@@ -1,11 +1,9 @@
 ;;; task-tracker.el --- Simple task tracking for Emacs -*- lexical-binding: t; -*-
 
-;; Author: Your Name
+;; Author: mr-x
 ;; Version: 0.1
-;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: tasks productivity
-;; URL: https://github.com/yourusername/emacs-task-tracker
-
+;; URL: https://github.com/Marx-A00/emacs-scoreboard/blob/main/scoreboard.el
 ;;; Commentary:
 
 ;; A simple package to track daily tasks in Emacs.
