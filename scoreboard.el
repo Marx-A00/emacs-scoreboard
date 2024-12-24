@@ -9,17 +9,16 @@
 ;; A simple package to track daily tasks in Emacs.
 
 ;;; Code:
-(provide 'scoreboard)
 
 
 
-  ;;(defun task-tracker-for-modeline()
-  ;;  "Return a string"
-  ;; (format  "Tasks: %d/%d" tasks-completed-for-day tasks-goal-for-day))
+  (defun task-tracker-for-modeline()
+   "Return a string"
+  (format  "Tasks: %d/%d" tasks-completed-for-day tasks-goal-for-day))
 
 
-	;;  (defvar tasks-goal-for-day 5 "goal number of tasks for a day")
-	;;  (defvar tasks-completed-for-day 0 "actual number of tasks completed for a day")
+	 (defvar tasks-goal-for-day 5 "goal number of tasks for a day")
+	 (defvar tasks-completed-for-day 0 "actual number of tasks completed for a day")
 	;;  (defvar last-check-date (calendar-current-date))
 
 
@@ -52,5 +51,8 @@
 	;; 	   (lambda ()
 	;; 	     (when (equal org-state "DONE")
 	;; 	       (mr-x/task-counter))))
+
+(provide 'scoreboard)
+
 ;;; scoreboard.el ends here
 
